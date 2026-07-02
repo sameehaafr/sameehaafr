@@ -4,13 +4,13 @@ export function Hero() {
       <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2">
         <div>
           <p className="text-sm text-muted">Hey, I&apos;m</p>
-          <h1 className="mt-2 text-4xl font-semibold leading-tight text-foreground sm:text-5xl">
+          <h1 className="mt-2 text-5xl font-semibold leading-tight text-foreground sm:text-6xl">
             Sameeha Afrulbasha
           </h1>
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted">
-            I design and build things for the web — part code, part
-            craft. This is where I keep my projects, my process, and a
-            little bit of personality.
+            Data Analyst at United Airlines. I build data-driven
+            experiences, write about analytics, and explore creative
+            hobbies outside of work.
           </p>
         </div>
         <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden rounded-md border border-border md:justify-self-end">

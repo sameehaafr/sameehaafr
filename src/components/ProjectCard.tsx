@@ -12,8 +12,14 @@ export function ProjectCard({
   href: string;
   image?: string;
 }) {
+  const isExternal = href.startsWith("http");
+
   return (
-    <Link href={href} className="group block">
+    <Link
+      href={href}
+      className="group block"
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+    >
       <div className="relative aspect-[4/3] overflow-hidden rounded-md border border-border">
         {image ? (
           <Image

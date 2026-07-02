@@ -1,27 +1,27 @@
 const skills = [
   {
-    name: "Next.js & React",
-    description: "Building fast, accessible web apps with the App Router and server components.",
+    name: "Data Analysis & BI",
+    description: "SQL, Python, Power BI, Excel — dashboards, pipelines, and revenue analysis.",
   },
   {
-    name: "TypeScript",
-    description: "Writing type-safe code across the frontend and backend.",
+    name: "Machine Learning",
+    description: "scikit-learn, TensorFlow, PyTorch — regression, classification, and time series models.",
   },
   {
-    name: "Design Systems",
-    description: "Translating brand and UI ideas into reusable, consistent components.",
+    name: "Software Engineering",
+    description: "Docker, React, NestJS, Git — full-stack development and system tooling.",
   },
   {
-    name: "Tailwind CSS",
-    description: "Rapidly styling interfaces with a utility-first workflow.",
+    name: "Data Engineering & ETL",
+    description: "DataHub, Metabase — automated pipelines and reporting for large-scale telemetry data.",
   },
   {
-    name: "APIs & Backends",
-    description: "Designing and integrating REST/GraphQL APIs and databases.",
+    name: "LLMs & NLP",
+    description: "LangChain, OpenAI — fine-tuning and building applications on top of language models.",
   },
   {
-    name: "Product Thinking",
-    description: "Balancing user needs, business goals, and technical constraints.",
+    name: "Research",
+    description: "Patent analysis, KPI forecasting, and predictive reporting on technology trends.",
   },
 ];
 
@@ -29,7 +29,7 @@ export function Skills() {
   return (
     <section id="skills" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-2xl font-semibold text-foreground">
+        <h2 className="text-3xl font-semibold text-foreground">
           Tools &amp; Skills
         </h2>
         <div className="mt-12 grid gap-x-12 gap-y-8 sm:grid-cols-2">

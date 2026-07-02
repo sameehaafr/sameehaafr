@@ -11,7 +11,13 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)",
       "Bash(curl -s http://localhost:3000/)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(kill 14853)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "WebFetch(domain:sameehaafr.github.io)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)"
     ]
   }
 }

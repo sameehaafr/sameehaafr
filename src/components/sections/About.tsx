@@ -8,17 +8,23 @@ export function About() {
           </div>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold text-foreground">About</h2>
+          <h2 className="text-3xl font-semibold text-foreground">About</h2>
           <p className="mt-6 text-base leading-relaxed text-muted">
-            I&apos;m a developer and designer who loves turning ideas into
-            polished, usable products. My background spans full-stack
-            engineering and visual design, and I care a lot about the
-            details — type, color, and code that&apos;s built to last.
+            I&apos;m a data analyst at United Airlines in Chicago, IL,
+            where I build data-driven tools and dashboards for domestic
+            revenue performance. I care about turning raw data into
+            decisions — and about the design and code that gets me
+            there.
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted">
-            Outside of building things, you&apos;ll find me exploring new
-            tools, sketching ideas, or rethinking how a product should
-            feel rather than just how it should work.
+            I hold a B.S. in Data Science and a B.S. in Applied
+            Statistics from Purdue University (Dec 2024), and previously
+            worked on data science and engineering teams at SpaceX
+            Starlink, Honeywell Aerospace, and TechNext.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-muted">
+            Outside of work, I write about analytics and machine
+            learning, and explore creative hobbies on the side.
           </p>
         </div>
       </div>
