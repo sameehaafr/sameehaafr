@@ -1,9 +1,7 @@
 import { Button } from "@/components/Button";
 
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/sameeha-afrulbasha/" },
-  { label: "GitHub", href: "https://github.com/sameehaafr" },
-  { label: "Medium", href: "https://medium.com/@sameehaafr" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/sameeha-afrulbasha/" }
 ];
 
 export function Contact() {
@@ -17,11 +15,6 @@ export function Contact() {
           Have a project in mind or just want to say hi? My inbox is
           always open.
         </p>
-        <div className="mt-8 flex justify-center">
-          <Button href="mailto:sameehaafr@gmail.com">
-            sameehaafr@gmail.com
-          </Button>
-        </div>
         <div className="mt-6 flex justify-center gap-6">
           {socials.map((social) => (
             <a
