@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BASE_PATH } from "@/lib/basePath";
 
 const experience = [
   {
@@ -44,13 +44,11 @@ export function Experience() {
     <section id="experience" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
-          <Image
-            src="/stickers/blue-star-clay.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${BASE_PATH}/stickers/blue-star-clay.png`}
             alt=""
-            width={24}
-            height={23}
-            style={{ height: "auto" }}
-            className="-rotate-6 select-none"
+            className="w-6 -rotate-6 select-none"
           />
           Experience
         </h2>

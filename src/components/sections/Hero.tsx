@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function Hero() {
   return (
@@ -21,21 +21,17 @@ export function Hero() {
               <span className="text-sm text-muted">Portrait photo</span>
             </div>
           </div>
-          <Image
-            src="/stickers/blue-star-clay.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${BASE_PATH}/stickers/blue-star-clay.png`}
             alt=""
-            width={64}
-            height={61}
-            style={{ height: "auto" }}
-            className="absolute -top-6 -right-6 -rotate-12 select-none"
+            className="absolute -top-6 -right-6 w-16 -rotate-12 select-none"
           />
-          <Image
-            src="/stickers/blue-jeans.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${BASE_PATH}/stickers/blue-jeans.png`}
             alt=""
-            width={48}
-            height={46}
-            style={{ height: "auto" }}
-            className="absolute -bottom-4 -left-4 rotate-12 select-none"
+            className="absolute -bottom-4 -left-4 w-12 rotate-12 select-none"
           />
         </div>
       </div>

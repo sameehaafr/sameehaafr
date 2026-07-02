@@ -40,7 +40,10 @@
       "Bash(git rm *)",
       "Bash(git remote *)",
       "Bash(curl -s https://sameehaafr.github.io/sameehaafr/)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(curl -s https://sameehaafr.github.io/sameehaafr/ -o /tmp/ghpages.html)",
+      "Read(//tmp/**)",
+      "Bash(GITHUB_ACTIONS=true GITHUB_REPOSITORY=sameehaafr/sameehaafr npx next build)"
     ]
   }
 }

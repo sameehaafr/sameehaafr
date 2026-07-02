@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function About() {
   return (
@@ -11,13 +11,11 @@ export function About() {
         </div>
         <div>
           <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
-            <Image
-              src="/stickers/blue-star-clay.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE_PATH}/stickers/blue-star-clay.png`}
               alt=""
-              width={24}
-              height={23}
-              style={{ height: "auto" }}
-              className="-rotate-6 select-none"
+              className="w-6 -rotate-6 select-none"
             />
             About
           </h2>
