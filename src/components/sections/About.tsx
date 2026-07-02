@@ -8,7 +8,15 @@ export function About() {
           </div>
         </div>
         <div>
-          <h2 className="text-3xl font-semibold text-foreground">About</h2>
+          <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/stickers/blue-star-clay.png"
+              alt=""
+              className="w-6 -rotate-6 select-none"
+            />
+            About
+          </h2>
           <p className="mt-6 text-base leading-relaxed text-muted">
             I&apos;m a data analyst at United Airlines in Chicago, IL,
             where I build data-driven tools and dashboards for domestic

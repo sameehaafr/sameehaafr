@@ -40,7 +40,15 @@ export function Writing() {
   return (
     <section id="writing" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-3xl font-semibold text-foreground">Writing</h2>
+        <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/stickers/blue-star-clay.png"
+            alt=""
+            className="w-6 -rotate-6 select-none"
+          />
+          Writing
+        </h2>
         <p className="mt-3 max-w-lg text-base text-muted">
           Notes and articles on analytics and machine learning.
         </p>

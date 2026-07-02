@@ -29,7 +29,13 @@ export function Skills() {
   return (
     <section id="skills" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-3xl font-semibold text-foreground">
+        <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/stickers/blue-star-clay.png"
+            alt=""
+            className="w-6 -rotate-6 select-none"
+          />
           Tools &amp; Skills
         </h2>
         <div className="mt-12 grid gap-x-12 gap-y-8 sm:grid-cols-2">

@@ -23,7 +23,13 @@ export function Hero() {
           <img
             src="/stickers/blue-star-clay.png"
             alt=""
-            className="absolute -top-4 -right-4 w-10 -rotate-12 select-none"
+            className="absolute -top-6 -right-6 w-16 -rotate-12 select-none"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/stickers/blue-jeans.png"
+            alt=""
+            className="absolute -bottom-4 -left-4 w-12 rotate-12 select-none"
           />
         </div>
       </div>

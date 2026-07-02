@@ -32,13 +32,13 @@ export function Work() {
     <section id="work" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
-          Selected Work
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/stickers/blue-star-clay.png"
             alt=""
-            className="w-6 rotate-6 select-none"
+            className="w-6 -rotate-6 select-none"
           />
+          Selected Work
         </h2>
         <p className="mt-3 max-w-lg text-base text-muted">
           A few projects I&apos;ve designed and built recently.
