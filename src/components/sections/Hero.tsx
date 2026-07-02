@@ -1,8 +1,17 @@
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="px-6 pt-20 pb-16 md:pt-28">
       <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2">
-        <div>
+        <div className="relative">
+          <Image
+            src="/stickers/blue-star-clay.png"
+            alt=""
+            width={34}
+            height={34}
+            className="absolute -top-3 -right-2 -rotate-12 select-none"
+          />
           <p className="text-sm text-muted">Hey, I&apos;m</p>
           <h1 className="mt-2 text-5xl font-semibold leading-tight text-foreground sm:text-6xl">
             Sameeha Afrulbasha

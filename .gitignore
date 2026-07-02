@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# raw sticker source assets (not shipped, see public/stickers for used ones)
+/stickers
+
 # debug
 npm-debug.log*
 yarn-debug.log*

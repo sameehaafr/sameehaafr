@@ -17,7 +17,8 @@
       "Bash(lsof -i :3000 -sTCP:LISTEN)",
       "WebFetch(domain:sameehaafr.github.io)",
       "Bash(gh auth *)",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(file ./stickers/*)"
     ]
   }
 }
