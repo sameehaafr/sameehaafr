@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ProjectCard } from "@/components/ProjectCard";
 
 const projects = [
@@ -34,12 +33,11 @@ export function Work() {
       <div className="mx-auto max-w-5xl">
         <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
           Selected Work
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/stickers/blue-star-clay.png"
             alt=""
-            width={24}
-            height={24}
-            className="rotate-6 select-none"
+            className="w-6 rotate-6 select-none"
           />
         </h2>
         <p className="mt-3 max-w-lg text-base text-muted">

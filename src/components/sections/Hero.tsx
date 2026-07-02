@@ -1,17 +1,8 @@
-import Image from "next/image";
-
 export function Hero() {
   return (
     <section className="px-6 pt-20 pb-16 md:pt-28">
       <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2">
-        <div className="relative">
-          <Image
-            src="/stickers/blue-star-clay.png"
-            alt=""
-            width={34}
-            height={34}
-            className="absolute -top-3 -right-2 -rotate-12 select-none"
-          />
+        <div>
           <p className="text-sm text-muted">Hey, I&apos;m</p>
           <h1 className="mt-2 text-5xl font-semibold leading-tight text-foreground sm:text-6xl">
             Sameeha Afrulbasha
@@ -22,10 +13,18 @@ export function Hero() {
             hobbies outside of work.
           </p>
         </div>
-        <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden rounded-md border border-border md:justify-self-end">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-sm text-muted">Portrait photo</span>
+        <div className="relative w-full max-w-sm md:justify-self-end">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-md border border-border">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-sm text-muted">Portrait photo</span>
+            </div>
           </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/stickers/blue-star-clay.png"
+            alt=""
+            className="absolute -top-4 -right-4 w-10 -rotate-12 select-none"
+          />
         </div>
       </div>
     </section>

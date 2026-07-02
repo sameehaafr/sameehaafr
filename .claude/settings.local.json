@@ -18,7 +18,8 @@
       "WebFetch(domain:sameehaafr.github.io)",
       "Bash(gh auth *)",
       "Bash(gh repo *)",
-      "Bash(file ./stickers/*)"
+      "Bash(file ./stickers/*)",
+      "Bash(git push *)"
     ]
   }
 }
