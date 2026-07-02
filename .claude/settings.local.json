@@ -59,7 +59,9 @@
       "Bash(curl -sI \"https://sameehaafr.github.io/sameehaafr/?cachebust=$\\(date +%s\\)\")",
       "Bash(curl -s \"https://sameehaafr.github.io/sameehaafr/?v=$\\(date +%s\\)\" -o /tmp/live3.html)",
       "Bash(curl -s -o /dev/null -w \"portrait: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/images/portrait.jpg\")",
-      "Bash(curl -s -o /dev/null -w \"working: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/images/working.jpg\")"
+      "Bash(curl -s -o /dev/null -w \"working: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/images/working.jpg\")",
+      "Bash(curl -s \"https://sameehaafr.github.io/sameehaafr/?v=$\\(date +%s\\)\" -o /tmp/live4.html)",
+      "Bash(curl -s -o /dev/null -w \"star: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/stickers/blue-star-clay.png\")"
     ]
   }
 }

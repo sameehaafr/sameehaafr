@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "./Button";
 
 const links = [
   { href: "#about", label: "About" },
@@ -28,9 +27,6 @@ export function Nav() {
             </a>
           ))}
         </nav>
-        <Button href="#contact" className="text-sm">
-          Contact
-        </Button>
       </div>
     </header>
   );
