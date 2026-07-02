@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(npm -v)",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)"
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npx tsc *)",
+      "Bash(mkdir -p /Users/sameehaafr/my-site/.claude && cat /Users/sameehaafr/my-site/.claude/launch.json 2>/dev/null || echo \"MISSING\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx eslint *)",
+      "Bash(node_modules/next/package.json)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(git add *)"
     ]
   }
 }
