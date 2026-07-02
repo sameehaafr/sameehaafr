@@ -17,9 +17,12 @@ export function Hero() {
         </div>
         <div className="relative w-full max-w-sm md:justify-self-end">
           <div className="relative aspect-[4/5] overflow-hidden rounded-md border border-border">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-sm text-muted">Portrait photo</span>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE_PATH}/images/portrait.jpg`}
+              alt="Portrait of Sameeha Afrulbasha"
+              className="h-full w-full object-cover"
+            />
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img

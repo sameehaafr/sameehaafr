@@ -1,5 +1,4 @@
 import { BASE_PATH } from "@/lib/basePath";
-import { ProjectCard } from "@/components/ProjectCard";
 
 const projects = [
   {
@@ -44,11 +43,23 @@ export function Work() {
         <p className="mt-3 max-w-lg text-base text-muted">
           A few projects I&apos;ve designed and built recently.
         </p>
-        <div className="mt-12 grid gap-10 sm:grid-cols-2">
+        <ul className="mt-10 divide-y divide-border">
           {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
+            <li key={project.href}>
+              <a
+                href={project.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block py-4 text-foreground transition-colors hover:text-accent"
+              >
+                <span className="text-base font-medium">{project.title}</span>
+                <p className="mt-1 text-sm text-muted">
+                  {project.description}
+                </p>
+              </a>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );

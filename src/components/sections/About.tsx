@@ -5,9 +5,12 @@ export function About() {
     <section id="about" className="border-t border-border px-6 py-20">
       <div className="mx-auto grid max-w-5xl items-start gap-14 md:grid-cols-2">
         <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-md border border-border">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-sm text-muted">Working photo</span>
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${BASE_PATH}/images/working.jpg`}
+            alt="Sameeha Afrulbasha hiking on a coastal trail"
+            className="h-full w-full object-cover"
+          />
         </div>
         <div>
           <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
