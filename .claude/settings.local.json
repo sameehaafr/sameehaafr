@@ -49,7 +49,17 @@
       "Bash(sips -Z 1200 -s format jpeg -s formatOptions 82 pictures/portrait.JPG --out /tmp/portrait_clean.jpg)",
       "Bash(sips -Z 1200 -s format jpeg -s formatOptions 82 pictures/working.JPG --out /tmp/working_clean.jpg)",
       "Bash(cp /tmp/portrait_clean.jpg public/images/portrait.jpg)",
-      "Bash(cp /tmp/working_clean.jpg public/images/working.jpg)"
+      "Bash(cp /tmp/working_clean.jpg public/images/working.jpg)",
+      "Bash(curl -s https://sameehaafr.github.io/sameehaafr/ -o /tmp/live.html)",
+      "Bash(curl -s -o /dev/null -w \"portrait: %{http_code}\\\\n\" https://sameehaafr.github.io/sameehaafr/images/portrait.jpg)",
+      "Bash(curl -s -o /dev/null -w \"working: %{http_code}\\\\n\" https://sameehaafr.github.io/sameehaafr/images/working.jpg)",
+      "Bash(curl -s -o /dev/null -w \"portrait-nested: %{http_code}\\\\n\" https://sameehaafr.github.io/images/portrait.jpg)",
+      "Bash(curl -sI https://sameehaafr.github.io/sameehaafr/)",
+      "Bash(curl -s \"https://sameehaafr.github.io/sameehaafr/?cachebust=$\\(date +%s\\)\" -o /tmp/live2.html -H \"Cache-Control: no-cache\" -H \"Pragma: no-cache\")",
+      "Bash(curl -sI \"https://sameehaafr.github.io/sameehaafr/?cachebust=$\\(date +%s\\)\")",
+      "Bash(curl -s \"https://sameehaafr.github.io/sameehaafr/?v=$\\(date +%s\\)\" -o /tmp/live3.html)",
+      "Bash(curl -s -o /dev/null -w \"portrait: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/images/portrait.jpg\")",
+      "Bash(curl -s -o /dev/null -w \"working: %{http_code}\\\\n\" \"https://sameehaafr.github.io/sameehaafr/images/working.jpg\")"
     ]
   }
 }
