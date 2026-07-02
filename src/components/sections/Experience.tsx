@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const experience = [
   {
     company: "United Airlines",
@@ -42,11 +44,13 @@ export function Experience() {
     <section id="experience" className="border-t border-border px-6 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="flex items-center gap-2 text-3xl font-semibold text-foreground">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/stickers/blue-star-clay.png"
             alt=""
-            className="w-6 -rotate-6 select-none"
+            width={24}
+            height={23}
+            style={{ height: "auto" }}
+            className="-rotate-6 select-none"
           />
           Experience
         </h2>

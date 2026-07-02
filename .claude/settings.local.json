@@ -19,7 +19,28 @@
       "Bash(gh auth *)",
       "Bash(gh repo *)",
       "Bash(file ./stickers/*)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(gh run *)",
+      "Bash(gh api *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(git fetch *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://sameehaafr.github.io/sameehaafr/)",
+      "Bash(curl -s https://www.githubstatus.com/api/v2/status.json)",
+      "Bash(npx vercel *)",
+      "Bash(npm i *)",
+      "Bash(npx vercel@latest --prod --yes)",
+      "Bash(npm_config_cache=/private/tmp/claude-501/-Users-sameehaafr-my-site/2b6cc1f5-e4aa-4c0f-82b8-8b1b0bbc92b9/scratchpad/npm-cache npx vercel@latest --prod --yes)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://my-site-sigma-sage-12.vercel.app)",
+      "Bash(curl -s https://my-site-sigma-sage-12.vercel.app)",
+      "Bash(curl -s https://www.githubstatus.com/api/v2/components.json)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s https://www.githubstatus.com/api/v2/incidents/unresolved.json)",
+      "Bash(gh workflow *)",
+      "Bash(git pull *)",
+      "Bash(git rm *)",
+      "Bash(git remote *)",
+      "Bash(curl -s https://sameehaafr.github.io/sameehaafr/)",
+      "Bash(npm run *)"
     ]
   }
 }
